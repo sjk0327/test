@@ -31,8 +31,11 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		// ÄÚµå¸¦ ¼öÁ¤ÇÕ´Ï´Ù. ÇÑ¹ø ´õ ¼öÁ¤
-		// merge test
+
+		// ï¿½Úµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ï¿½Ñ¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		// marge test
+		//ìˆ˜ì •ì´ ìˆ˜ì •
+
 		
 		model.addAttribute("serverTime", formattedDate );
 		
